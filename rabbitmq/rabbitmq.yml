@@ -15,5 +15,5 @@ spec:
         app: rabbitmq
     spec:
       containers:
-      - image: traefik:latest
+      - image: wildfly:latest
         name: rabbitmq
