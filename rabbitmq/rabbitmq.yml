@@ -15,5 +15,5 @@ spec:
         app: rabbitmq
     spec:
       containers:
-      - image: apache2:latest
+      - image: traefik:latest
         name: rabbitmq
