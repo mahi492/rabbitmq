@@ -7,9 +7,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 800
+  - port: 80
     protocol: TCP
-    targetPort: 800
+    targetPort: 80
   selector:
     app: rabbitmq
   type: NodePort
